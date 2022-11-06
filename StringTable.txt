@@ -1,0 +1,218 @@
+﻿#elif<LocaleName==POLISH>
+	<StringTable Name='$MAIN_TAB_PROGRAM' String='Live/VOD' />
+	<StringTable Name='$MAIN_TAB_CHAT' String='Czat' />
+	<StringTable Name='$MAIN_TAB_BROWSER' String='Przeglądarka' />	
+	<StringTable Name='$MAIN_TAB_PLAYLIST' String='Playlist' />
+	<StringTable Name='$MAIN_POPUP_CAST' String='Broadcast' />
+	
+	<StringTable Name='$MAIN_POPUP_MODE' String='Tryb' />
+	<StringTable Name='$MAIN_USE_EXPLORER' String='Użyj przeglądarki w nieaktywnym oknie czatu' />
+	
+	<StringTable Name='$ALWAYS_ON_TOP_CYCLE' String='Przełączanie zawsze na wierzchu' />
+	<StringTable Name='$ALWAYS_ON_TOP' String='Zawsze na wierzchu' />
+	<StringTable Name='$ALWAYS_ON_TOP_PLAY' String='Zawsze na wierzchu podczas odtwarzania' />
+	<StringTable Name='$ALWAYS_ON_TOP_FULL' String='Zawsze na wierzchu w trybie pełnego ekranu' />
+	
+	<StringTable Name='$CONTROL_BOX_TITLE' String='Panel sterowania' />
+
+	<StringTable Name='$PLAYLIST_TITLE' String='Playlist' />
+	<StringTable Name='$PLAYLIST_DEL' String='Usuń' />
+	<StringTable Name='$PLAYLIST_ADD' String='Dodaj' />
+	<StringTable Name='$PLAYLIST_SORT' String='Sortuj' />	
+
+	<StringTable Name='$CHAT_ONLY_VIEW_MESSAGE' String='Pokaż tylko wiadomość' />
+	<StringTable Name='$CHAT_ALRAM' String='Alarm czatu' />
+	<StringTable Name='$CHAT_WHISPER' String='Prywatne' />
+	<StringTable Name='$CHAT_EMOTICON' String='Pokaż emoticony' />
+	<StringTable Name='$CHAT_SAVE' String='Zapisz' />
+	<StringTable Name='$CHAT_DELETE' String='Usuń' />
+
+	<StringTable Name='$CMD_CHAT_USER_OPEN' String='Otwórz' />
+	<StringTable Name='$CMD_CHAT_USER_CLOSE' String='Zamknij' />
+	<StringTable Name='$CMD_CHAT_SEND_ALERT' String='Powiadomienie' />
+	<StringTable Name='$CMD_CHAT_REG_NOTIFY' String='Reg' />
+	<StringTable Name='$CMD_CHAT_DEL_NOTIFY' String='Del' />
+	
+	<StringTable Name='$CMD_CHAT_FONT_SIZE' String='Rozmiar (%)' />
+	<StringTable Name='$CMD_CHAT_VIEW_FONT_TITLE' String='Rozmiar czcionki czatu' />
+	<StringTable Name='$CMD_CHAT_VIEW_OPTION_TITLE' String='Opcje czatu' />
+	<StringTable Name='$CMD_CHAT_FONT_TITLE' String='Czcionka opcji' />
+	<StringTable Name='$CMD_CHAT_NICKNAME_TITLE' String='Nickname' />
+	<StringTable Name='$CMD_CHAT_NICKNAME_CHANGE' String='Zmień nickname' />
+	<StringTable Name='$CMD_CHAT_TOOLTIP_OPTION' String='Opcje czatu' />
+	<StringTable Name='$CMD_CHAT_TOOLTIP_CAST_OPTION' String='Opcje broadcast czatu' />
+	<StringTable Name='$CMD_CHAT_SUPPORT_LIST' String='Lista obsługiwanych' />
+	<StringTable Name='$CMD_CHAT_STOP' String='Stop czat' />
+	<StringTable Name='$CMD_CHAT_LOGIN' String='Login' />
+	<StringTable Name='$CMD_CHAT_INPUT' String='Wejście' />
+	<StringTable Name='$CMD_CHAT_NAMECHECK' String='Sprawdź' />
+	<StringTable Name='$CMD_CHAT_STYLE' String='Styl czatu' />
+	<StringTable Name='$CMD_CHAT_DARK' String='Tryb ciemny czatu' />	
+
+	<StringTable Name='$SCREEN_CAP1_TITLE' String='Kamera 1' />
+	<StringTable Name='$SCREEN_CAP2_TITLE' String='Kamera 2' />
+
+	<StringTable Name='$CAST_TOOL_DEVICE' String='Urządzenie broadcast' />
+	<StringTable Name='$CAST_TOOL_INFO' String='Info broadcast' />
+	<StringTable Name='$CAST_TOOL_EFFECT' String='Efekty broadcast' />
+	<StringTable Name='$CAST_TOOL_SAVE' String='Zapis na żywo' />
+
+	<StringTable Name='$CAST_NUM_TOTAL' String='Ogółem' />
+	<StringTable Name='$CAST_SHARE' String='Podziel się' />
+	<StringTable Name='$CAST_REPORT' String='Raport' />
+	<StringTable Name='$CAST_START_ALERT' String='Alert broadcast' />
+
+	<StringTable Name='$CAST_ETC' String='Podziel się/Raport' />
+	<StringTable Name='$CAST_CHANGE_BITRATE' String='Zmień jakość' />
+	<StringTable Name='$CAST_RECOMMAND' String='Poleć' />
+	<StringTable Name='$CAST_SEND_CASH' String='Wyślij ciasteczko' />
+	<StringTable Name='$CAST_PLUS_FRIEND' String='Add PlusFriend' />
+	<StringTable Name='$CAST_FAVORITE' String='Dodaj do ulubionych' />
+	<StringTable Name='$ID_BROADCAST_BLACK_LIST_MAG' String='Zarządzaj czarną listą czatu' />
+
+	<StringTable Name='$ID_EPG_EXPLORER' String='Pokaż EPG' />
+	<StringTable Name='$ID_CLOSED_CAPTION' String='Wł./Wył. Closed Caption' />
+
+	<StringTable Name='$CMD_POPUPMENU_STREAM_SELECT' String='Wybierz strumień' />
+	<StringTable Name='$CMD_POPUPMENU_DVD' String='Menu DVD' />
+	<StringTable Name='$CMD_POPUPMENU_VIDEO_3D' String='Menu wideo 3D' />
+	<StringTable Name='$CMD_POPUPMENU_VIDEO_360VR' String='Menu wideo 360°' />
+	
+	<StringTable Name='$CMD_TOUCH_LOCK' String='Wł./Wył. blokadę funkcji dotykowych' />
+
+	<StringTable Name='$CMD_WDM_CHANNEL_MESSAGE' String='Kanały: %s' />
+	
+	<StringTable Name='$CONTROL_AUDIO' String='Audio' />
+	<StringTable Name='$CONTROL_VIDEO' String='Wideo' />
+	<StringTable Name='$CONTROL_SUBTITLE' String='Napisy' />
+	<StringTable Name='$CONTROL_PLAYBACK' String='Playback' />
+	<StringTable Name='$CONTROL_EQUALIZER' String='Korektor' />
+	<StringTable Name='$CONTROL_PRESET' String='Preset' />
+	<StringTable Name='$CONTROL_VOLUME' String='VOL' />
+	<StringTable Name='$CONTROL_BRIGHTNESS' String='Jasność' />
+	<StringTable Name='$CONTROL_BRIGHTNESS1' String='Jasność (%s%%)' />
+	<StringTable Name='$CONTROL_CONTRAST' String='Kontrast' />
+	<StringTable Name='$CONTROL_CONTRAST1' String='Kontrast (%s%%)' />
+	<StringTable Name='$CONTROL_SATURATION' String='Nasycenie' />
+	<StringTable Name='$CONTROL_SATURATION1' String='Nasycenie (%s%%)' />
+	<StringTable Name='$CONTROL_COLOR' String='Kolor' />
+	<StringTable Name='$CONTROL_COLOR1' String='Kolor (%s%%)' />
+	<StringTable Name='$CONTROL_SOFTEN' String='Zmiękcz' />
+	<StringTable Name='$CONTROL_SHARPEN' String='Wyostrz' />
+	<StringTable Name='$CONTROL_DEBLOCK' String='Deblock' />
+	<StringTable Name='$CONTROL_CAPTURE' String='Przechwyt' />
+	<StringTable Name='$CONTROL_VIDEO_DEFAULT' String='Default' />
+	<StringTable Name='$CONTROL_FONT' String='Czcionka' />
+	<StringTable Name='$CONTROL_POSITION' String='Pozycja' />
+	<StringTable Name='$CONTROL_POSITION1' String='Pozycja (%s%%)' />
+	<StringTable Name='$CONTROL_UP' String='▲ Góra' />
+	<StringTable Name='$CONTROL_UP1' String='▲ Góra' />
+	<StringTable Name='$CONTROL_DOWN' String='▼ Dół' />
+	<StringTable Name='$CONTROL_DOWN1' String='▼ Dół' />
+	<StringTable Name='$CONTROL_LEFT' String='◀Lewo' />
+	<StringTable Name='$CONTROL_RIGHT' String='▶Prawo' />
+	<StringTable Name='$CONTROL_SUBTITLE_DEFAULT' String='Domyślne' />
+	<StringTable Name='$CONTROL_SUBTITLE_SYNC' String='Synchro' />
+	<StringTable Name='$CONTROL_SUBTITLE_SYNC1' String='Synchro (%s)' />
+	<StringTable Name='$CONTROL_SUBTITLE_SLOWER' String='Wolniej' />
+	<StringTable Name='$CONTROL_SUBTITLE_FASTER' String='Szybciej' />
+	<StringTable Name='$CONTROL_PLAYBACK_SPEED' String='Szybkość' />
+	<StringTable Name='$CONTROL_PLAYBACK_SPEED1' String='Szybkość (%s×)' />
+	<StringTable Name='$CONTROL_PLAYBACK_DEFAULT' String='Domyślna' />
+	<StringTable Name='$CONTROL_PLAYBACK_SLOWER' String='Wolniej' />
+	<StringTable Name='$CONTROL_PLAYBACK_FASTER' String='Szybciej' />
+	<StringTable Name='$CONTROL_PLAYBACK_SYNC' String='Synchro (%s sek.)' />
+	<StringTable Name='$CONTROL_SEEK' String='Przeszuk.' />
+	<StringTable Name='$CONTROL_SEEK_5' String='Domyślny czas przeszukiwania' />
+	<StringTable Name='$CONTROL_SEEK_30' String='Dwa palce czas przeszukiwania' />
+	<StringTable Name='$CONTROL_SEEK_60' String='Trzy palce czas przeszukiwania' />	
+	<StringTable Name='$CONTROL_AB' String='A-B' />
+	<StringTable Name='$CONTROL_A' String='A' />
+	<StringTable Name='$CONTROL_B' String='B' />
+	<StringTable Name='$CONTROL_STOP' String='Cofnij' />
+
+	<StringTable Name='$CONTROL_DEFAULT' String='■ Domyślne' />
+	<StringTable Name='$CONTROL_DEC' String='◀ Zmniejsz' />
+	<StringTable Name='$CONTROL_INC' String='▶ Zwiększ' />
+	<StringTable Name='$CONTROL_CAPTION_SIZE' String='Rozmiar (%s)' />
+	<StringTable Name='$CONTROL_CAPTION_SEL' String='Wybierz napisy' />
+	<StringTable Name='$CONTROL_VIDEO_SEL' String='Wybierz wideo' />
+	<StringTable Name='$CONTROL_VIDEO_COLOR' String='Regulacja koloru' />
+	<StringTable Name='$CONTROL_VIDEO_RATIO' String='Proporcje obrazu' />
+
+	<StringTable Name='$CONTROL_AUDIO_SEL' String='Wybierz audio' />
+	<StringTable Name='$CONTROL_AUDIO_MASTER_VOLUME' String='Głośność Master (%s%%)' />
+	<StringTable Name='$CONTROL_AUDIO_WAVE_VOLUME' String='Głośność Wave (%s%%)' />
+	
+	<StringTable Name='$MENU_FILE' String='Plik' />
+	<StringTable Name='$MENU_VIEW' String='Widok' />
+	<StringTable Name='$MENU_PLAY' String='Odtwarzaj' />
+	<StringTable Name='$MENU_SUB' String='Napisy' />
+	<StringTable Name='$MENU_VIDEO' String='Wideo' />
+	<StringTable Name='$MENU_AUDIO' String='Audio' />
+	<StringTable Name='$MENU_HELP' String='Pomoc' />	
+	
+	<StringTable Name='$CMD_MEDIA_PLAY' String='Odtwarzaj' />
+	<StringTable Name='$CMD_MEDIA_PAUSE' String='Wstrzymaj' />
+	<StringTable Name='$CMD_MEDIA_CLOSE' String='Zatrzymaj' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_BACK_PREV' String='Przejdź do tyłu | Odtwarzaj poprzedni' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_FORW_NEXT' String='Przejdź do przodu | Odtwarzaj następny'/>
+	<StringTable Name='$ID_PLAYBACK_5SEC_BACK' String='Przejdź do tyłu' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_FORW' String='Przejdź do przodu' />
+	<StringTable Name='$ID_OPEN_FILE' String='Otwórz plik' />
+	<StringTable Name='$ID_AUDIO_MUTE' String='Wł./Wył. dźwięk' />
+	<StringTable Name='$CMD_LOAD_SKIN_XML_DEF' String='Tryb domyślny' />
+	<StringTable Name='$CMD_LOAD_SKIN_XML_MIN' String='Tryb "Mini"' />
+	<StringTable Name='$ID_APP_EXIT' String='Zakończ' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_OPEN' String='Otwórz listę Live/Czat/Listę odtwarzania' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_CLOSE' String='Zamknij listę Live/Czat/Listę odtwarzania' />
+	<StringTable Name='$CMD_DETACH_CAST' String='Odłącz listę Live/VOD' />
+	<StringTable Name='$CMD_DETACH_CHAT' String='Odłącz okno czatu/Przeglądarkę' />
+	<StringTable Name='$CMD_DETACH_PLAYLIST' String='Odłącz listę odtwarzania' />
+	<StringTable Name='$CMD_MAIN_MENU' String='Menu główne' />
+	<StringTable Name='$CMD_POPUP_WINDOW_CAST' String='Pokaż/Ukryj narzędzia Live' />
+	<StringTable Name='$CMD_BROADCAST_MENU' String='Menu Live' />
+	<StringTable Name='$CMD_VIEWER_NUM_MESSAGE' String='Widzowie' />
+	<StringTable Name='$CMD_GOOD_NUM_MESSAGE' String='Zalecany' />
+	<StringTable Name='$CMD_BAD_NUM_MESSAGE' String='Zły' />
+	<StringTable Name='$ID_PLAYLIST_WINDOW' String='Pokaż/Ukryj Listę odtwarzania' />
+	<StringTable Name='$ID_CONTROL_BOX_WINDOW' String='Pokaż/Ukryj Panel sterowania' />
+	<StringTable Name='$ID_PLAY_REPEAT_START_SET' String='Ustaw punkt początkowy dla zakresu odtwarzania' />
+	<StringTable Name='$ID_PLAY_REPEAT_RESET' String='Resetuj zakres odtwarzania' />
+	<StringTable Name='$ID_PLAY_REPEAT_STOP_SET' String='Ustaw punkt końcowy dla zakresu odtwarzania' />
+	<StringTable Name='$ID_PLAYBACK_REPEAT' String='Powtarzanie odtwarzania' />
+	<StringTable Name='$ID_PLAYBACK_SHUFFLE' String='Odtwarzanie w kolejności losowej' />
+	<StringTable Name='$ID_BROADCAST_TOOL_WINDOW' String='Wł./Wył. narzędzia Live' />
+	<StringTable Name='$ID_BROADCAST_LIST_WINDOW' String='Wł./Wył. listę Live' />
+	<StringTable Name='$ID_CHAT_WINDOW' String='Wł./Wył. okno czatu' />
+	<StringTable Name='$CMD_MIN_WINDOW' String='Minimalizuj' />
+	<StringTable Name='$CMD_MAX_WINDOW' String='Maksymalizuj' />
+	<StringTable Name='$CMD_RESTORE_WINDOW' String='Przywróć' />
+	<StringTable Name='$CMD_FULL_WINDOW' String='Pełny ekran' />
+	<StringTable Name='$ID_WDM_CH_SEL_MENU' String='Zarządzanie kanałami' />
+	<StringTable Name='$ID_WDM_FORCE_PREV_CH' String='Poprzedni kanał | Wymuś poprzedni kanał' />
+	<StringTable Name='$ID_WDM_FORCE_NEXT_CH' String='Następny kanał | Wymuś następny kanał' />
+	<StringTable Name='$CMD_CLOSE_WINDOW' String='Zamknij' />
+	<StringTable Name='$CMD_ATTACH_MAIN' String='Dołącz do okna głównego' />
+	<StringTable Name='$CMD_CHAT_FONT_SELECT' String='Zmień czcionkę' />
+	<StringTable Name='$CMD_CHAT_EMOTICON' String='Wybierz emotikony' />
+	<StringTable Name='$CMD_CHAT_ASSIGN_NOTIFY' String='Przypisz powiadomienie' />
+	<StringTable Name='$CMD_CHAT_DELETE_NOTIFY' String='Usuń powiadomienie' />
+	<StringTable Name='$CMD_PLAYLIST_TOP' String='Na początek listy' />
+	<StringTable Name='$CMD_PLAYLIST_UP' String='W górę' />
+	<StringTable Name='$CMD_PLAYLIST_DOWN' String='W dół' />
+	<StringTable Name='$CMD_PLAYLIST_BOTTOM' String='Na koniec listy' />
+	<StringTable Name='$CMD_CAPTURE1ST_SELECT' String='Wybierz pierwszą kamerę' />
+	<StringTable Name='$CMD_CAPTURE2ND_SELECT' String='Wybierz drugą kamerę' />
+	<StringTable Name='$CMD_CAPTURE1ST_SHOW' String='Pokaż pierwszą kamerę' />
+	<StringTable Name='$CMD_CAPTURE2ND_SHOW' String='Pokaż drugą kamerę' />
+	<StringTable Name='$CMD_CAPTURE1ST_HIDE' String='Ukryj pierwszą kamerę' />
+	<StringTable Name='$CMD_CAPTURE2ND_HIDE' String='Ukryj drugą kamerę' />
+	<StringTable Name='$CMD_CAPTURE1ST_PRIMARY' String='Pierwsza kamera jako podstawowa' />
+	<StringTable Name='$CMD_CAPTURE2ND_PRIMARY' String='Druga kamera jako podstawowa' />
+	<StringTable Name='$CMD_CAPTURE_PIP_SETTING' String='Ustawienia PIP (Obraz W Obrazie)' />
+	<StringTable Name='$CMD_CAPTURE_FINDWND' String='Znajdź okno do przechwycenia' />
+	<StringTable Name='$CMD_CAPTURE_OPTIMIZE_SIZE' String='Optymalizuj rozmiar/Przywróć rozmiar' />
+	<StringTable Name='$CMD_CAPTURE_FULLSCREEN' String='Przechwyt w rozmiarze pełnego ekranu' />
+	<StringTable Name='$CMD_CAPTURE_NORMALSCREEN' String='Przechwyt w domyślnym rozmiarze' />
+#else

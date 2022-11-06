@@ -1,0 +1,30 @@
+﻿ENHANCED
+H/W-ACCELERATION 
+Zapewnia maksymalną wydajność
+z minimalnym użyciem zasobów za pomocą DXVA, CUDA, QuickSync.
+Otrzymujesz wszystko to, co najlepsze!
+
+IMMERSIVE VIEWING
+EXPERIENCE WITH 3D
+Obsługa różnych rodzajów okularów 3D.
+Teraz możesz cieszyć się światem 3D,
+kiedy tylko chcesz, używając 3DTV lub PC.
+Wsparcie różnych formatów wyjściowych
+(Side by Side, Top and Bottom, Page Flipping).
+
+SUPPORTS VARIOUS
+SUBTITLE FORMATS
+Napisy tekstowe (SMI & SRT), DVD(Vobsub)
+i napisy Blu-ray,
+animacje ASS/SSA i tagi SMI Ruby, etc.
+
+VARIETY OF CODECS,
+EASY TO MANAGE
+Nie ma potrzeby instalowania różnych codecpack'ów - odtwarzacz sam rozumie większość formatów!
+Obsługuje OpenCodec, dzięki czemu użytkownicy mogą w prosty sposób dodawać inne kodeki w dowolnej chwili.
+
+MORE ADVANCED
+FEATURES
+- Płynne odtwarzanie wideo                     - Wybór dowolnej karty dźwiękowej, jeśli jest ich kilka
+- Podgląd scen i zrzuty ekranowe               - Zapisywanie do zakładek ulubionych scen z filmu
+- Obsługa Direct3D9 Ex Flip Mode i Overlay     - Wsparcie dla różnych urządzeń: DVD, TV, HDTV, itp.
