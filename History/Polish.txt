@@ -3,7 +3,7 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[2211.17]
+[221117]
 ----------------------------------------------------------
 - Naprawiono błąd powodujący problemy z odtwarzaniem niektórych plików AV1
 
