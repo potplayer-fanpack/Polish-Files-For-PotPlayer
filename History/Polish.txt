@@ -10,7 +10,7 @@ Historia wersji PotPlayer
 - Naprawiono problem powodujący zniekształcenia obrazu podczas korzystania z niektórych H264 DXVA
 
 ----------------------------------------------------------
-[230405]
+[230405][230523]
 ----------------------------------------------------------
 + Dodano funkcję GPU Super Resolution do wbudowanego renderera wideo D3D11 
 
