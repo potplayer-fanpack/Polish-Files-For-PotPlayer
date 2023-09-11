@@ -2,6 +2,13 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[230910]
+----------------------------------------------------------
++ Dodano możliwość wyświetlania wielu linii w Przeglądarce napisów 
+
+- Zmodyfikowano korekcję kolorów HDR do zastosowania podczas przechwytywania wideo, jeśli to możliwe
+
+----------------------------------------------------------
 [230830]
 ----------------------------------------------------------
 - Zastosowano poprawkę umożliwiającą zachowanie właściwości napisów podczas ich tłumaczenia, jeśli to możliwe
