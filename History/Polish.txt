@@ -2,7 +2,7 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
-[230922]
+[230926]
 ----------------------------------------------------------
 + Dodano możliwość wyświetlania wielu linii w Przeglądarce napisów 
 
