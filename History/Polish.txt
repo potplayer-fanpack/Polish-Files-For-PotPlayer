@@ -2,7 +2,7 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
-[231013]
+[231020]
 ----------------------------------------------------------
 + Dodano możliwość wyświetlania wielu linii w Przeglądarce napisów
 + Dodano możliwość odtwarzania kodeka wideo NOTCHLC 
@@ -12,6 +12,7 @@ Historia wersji PotPlayer
 - Naprawiono błąd, który powodował nakładanie się osadzonych napisów podczas odtwarzania plików bez przerw
 - Naprawiono błąd, który powodował, że zakończenie odtwarzania nie następowało w przypadku użycia funkcji usuwania powiązanego pliku po zakończeniu odtwarzania
 - Naprawiono błąd, który powodował zawieszanie się podczas odtwarzania HEVC z DXVA na starych procesorach graficznych Intel
+- Naprawiono błąd, który powodował, że po użyciu przeszukiwania nie można było odtworzyć niektórych plików wideo MKV
 
 ----------------------------------------------------------
 [230830]
