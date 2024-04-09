@@ -2,9 +2,12 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
-[240325]
+[240401]
 ----------------------------------------------------------
-+ Dodano funkcję odtwarzania Dolby Vision HDR
++ Dodano możliwość odtwarzania Dolby Vision HDR
+
+- Naprawiono błąd, który powodował, że niektóre pliki MP4 nie były odtwarzane
+- Naprawiono błąd, który powodował, że wbudowany renderer D3D9 generował błędy na kartach Intel VGA
 
 ----------------------------------------------------------
 [240305]
