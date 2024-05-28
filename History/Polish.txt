@@ -2,6 +2,18 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[240528]
+----------------------------------------------------------
++ Dodano możliwość ustawienia czcionki informacji o odtwarzaniu (OSD)
++ Dodano możliwość nazywania albumów w warunkach automatycznego wyboru konfiguracji
++ Dodano możliwość przejścia do poprzedniej/następnej sekcji na liście powtórzeń
++ Dodano możliwość braku oczekiwania na synchronizację pionową
+
+- Zmodyfikowano skórkę WindowFrame, aby była ładniejsza
+- Zmodyfikowano format napisów wyświetlanych w nazwie wbudowanych napisów
+- Naprawiono problem, w wyniku którego kroki przechodzenia po klatkach nie działały poprawnie we wbudowanym rendererze wideo
+
+----------------------------------------------------------
 [240509]
 ----------------------------------------------------------
 + Dodano możliwość odtwarzania Dolby Vision HDR
