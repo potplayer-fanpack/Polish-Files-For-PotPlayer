@@ -2,7 +2,7 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
-[240723]
+[240807]
 ----------------------------------------------------------
 + Dodano WEBP do przechwytywania wideo
 + Dodano możliwość ustawienia sekundowego lub krótszego opóźnienia dla filtrów źródła obrazu
@@ -13,6 +13,7 @@ Historia wersji PotPlayer
 - Naprawiono błąd powstający podczas dekodowania przy użyciu libVPX 8/9
 - Naprawiono błąd powodujący nieprawidłowe działanie nawigacji podczas przesyłania strumieniowego MP4
 - Naprawiono błąd powodujący powolne przeglądanie niektórych plików FLV
+- Poprawiono szybkość wyświetlania napisów
 
 ----------------------------------------------------------
 [240618]
