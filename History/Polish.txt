@@ -3,7 +3,7 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[241011]
+[241015]
 ----------------------------------------------------------
 + Dodano możliwość dostosowania prędkości odtwarzania po naciśnięciu przycisku myszki
 
