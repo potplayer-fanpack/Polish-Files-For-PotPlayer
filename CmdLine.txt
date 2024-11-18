@@ -27,6 +27,7 @@
 /clipboard        : 클립보드의 항목으로 재생
 /seek=hh:mm:ss.ms : 지정된 시간으로 재생 시작
 /sub=["]자막 파일["] : 같이 열 자막 파일 지정
+/aud=["]자막 파일["] : 같이 열 오디오 파일 지정
 /user_agent=["]문자열["] : http(s) 열기 시 사용할 user agent
 /referer=["]문자열["] : http(s) 열기 시 사용할 reference
 /headers=["]문자열["] : http(s) 열기 시 사용할 추가적인 정보
@@ -142,10 +143,10 @@ $}
 config="配置名稱"  : 選擇指定配置
 
 使用方法舉例 : 
-PotPlayerMini.exe "D:\刺激1995.mkv"		: 直接播放指定的檔案
+PotPlayerMini.exe "D:\刺激1995.mkv"	: 直接播放指定的檔案
 PotPlayerMini.exe "D:\刺激1995.mkv" /add	: 將指定的檔案新增到清單中
 PotPlayerMini.exe /dvd			: 開啟預設 DVD 裝置的檔案
-PotPlayerMini.exe config="設定檔 1"		: 啟動指定的配置
+PotPlayerMini.exe config="設定檔 1"	: 啟動指定的配置
 $}
 {$CATALAN=
 
@@ -181,13 +182,29 @@ $}
                 -L'ajust "F5 > General > Múltiples instàncies" no afecta això.
 /current 	:Reprodueix els continguts especificats dins d'una instància existent del programa
                 -L'ajust "F5 > General > Múltiples instàncies" no afecta això.
-/clipboard      :Agrega contingut(s) del porta-papers a la llista de reproducció i inicia la reproducció immediatament.
+/clipboard      :Afegeix contingut(s) del porta-papers a la llista de reproducció i inicia la reproducció immediatament.
 /seek=time      :Inicia la reproducció del contingut especificat/últim reproduït des del punt de temps especificat.
                 -El format de temps és: hh: mm: ss.ms (O especifiqui només segons, ejem. /seek=1800 per començar en el minut 30)
-/user_agent=["]string["] : set user agent string for http(s)
-/referer=["]string["] : set referer string for http(s)
-/headers=["]string["] : set headers string for http(s)
+
+/user_agent=["]string["] : Cadena d'agent d'usuari per a http(s)
+/referer=["]string["] : Cadena de referència per a http(s)
+/headers=["]string["] : Cadena de capçaleres per a http(s)
 config="preset name" -- Utilitza els paràmetres predefinits
+
+Com executar PotPlayer des de la línia d'ordres?
+1) Clic dret a PotPlayerMini.exe al directori d'instal·lació i seleccioneu "Crear accés directe" del menú
+2) Clic dret al fitxer "PotPlayerMini[64].exe - Accés directe" acabat de crear i seleccioneu "Propietats" del menú
+3) Afegir una ordre específica al final de la línia d'ordres (per exemple "C:\Program Files (x86)\Daum\PotPlayer\PotPlayerMini.exe" /autoplay), i després feu clic a D'acord.
+4) Doble clic a "PotPlayerMini[64].exe — abreviatura", el programa realitzarà l'acció sol·licitada quan s'iniciï.
+
+Exemples:
+PotPlayerMini.exe "C:\Video\proba.mp4" - reprodueix el fitxer especificat directament
+PotPlayerMini.exe "C:\Video\proba.mp4" /add - afegeix el fitxer especificat a la llista de reproducció
+PotPlayerMini.exe /autoplay - reprodueix el darrer fitxer obert
+PotPlayerMini.exe /filedlg - obre un quadre de diàleg i afegeix els fitxers a la llista de reproducció
+PotPlayerMini.exe /dvd - obre una unitat de DVD estàndard
+PotPlayerMini.exe config="HD Pack" - activa els ajustaments indicats (perfil)
+PotPlayerMini.exe /cd:e - obre la unitat especificada
 $}
 {$POLISH=
 
@@ -203,7 +220,7 @@ Użycie: PotPlayerMini.exe ["zawartość"] [/przełącznik]
                     - Przykład użycia: youtube-dl.exe -o - -f best[ext=webm] https://www.youtube.com/watch?v=l22sS8DEiVU | PotPlayerMini.exe -
  
 /filedlg	 : Otwiera okno dialogowe otwierania pliku
-/urldlg      : Otwiera okno dialogowe otwierania URL
+/urldlg        	 : Otwiera okno dialogowe otwierania URL
 /folderdlg	 : Otwiera okno dialogowe otwierania folderu
 /simple	   	 : Otwiera Menedżer plików
 /cap	   	 : Uruchamia przechwytywanie ekranu
@@ -226,7 +243,8 @@ Użycie: PotPlayerMini.exe ["zawartość"] [/przełącznik]
 /clipboard       : Dołącza zawartość (pliki/foldery/URL) ze schowka do listy odtwarzania i natychmiast rozpoczyna odtwarzanie
 /seek=time       : Rozpoczyna odtwarzanie określonej / ostatnio odtwarzanej zawartości od określonego momentu
                    - format czasu to: hh:mm:ss.ms (LUB można określić tylko sekundy, np. /seek=1800, aby rozpocząć od 30 minuty)
-/sub="subfile"   : Wczytuje określone napisy z podanych ścieżek lub adresów URL
+/sub="subfile"   : Wczytuje określone pliki z napisami ze wskazanych ścieżek lub adresów URL
+/aud="audiofile" : Wczytuje określone pliki audio ze wskazanych ścieżek lub adresów URL
 /user_agent="ua" : Ustawia nagłówek user agent dla zapytań http(s)
 /referer="ref"   : Ustawia nagłówek odwołania dla zapytań http(s)
 /headers="hdrs"  : Dołącza określone nagłówki do zapytań http(s)
@@ -235,9 +253,9 @@ Użycie: PotPlayerMini.exe ["zawartość"] [/przełącznik]
 config="name"	 : Aktywuje określone ustawienie wstępne (profil)
 
 Jak uruchomić PotPlayer z wiersza polecenia?
-1) Kliknij prawym przyciskiem myszki PotPlayerMini.exe w katalogu instalacyjnym i z menu kontekstowego wybierz "Utwórz skrót"
-2) Kliknij prawym przyciskiem myszy nowo utworzony plik "PotPlayerMini.exe — skrót" i z menu kontekstowego wybierz "Właściwości"
-3) Dodaj określone polecenie na końcu linii wiersza polecenia (na przykład "C:\Program Files\Daum\PotPlayer\PotPlayerMini.exe" /autoplay), a następnie kliknij przycisk OK.
+1) Kliknij prawym przyciskiem myszki PotPlayerMini[64].exe w katalogu instalacyjnym i z menu kontekstowego wybierz "Utwórz skrót"
+2) Kliknij prawym przyciskiem myszy nowo utworzony plik "PotPlayerMini[64].exe — skrót" i z menu kontekstowego wybierz "Właściwości"
+3) Dodaj określone polecenie na końcu linii wiersza polecenia (na przykład "C:\Program Files (x86)\Daum\PotPlayer\PotPlayerMini.exe" /autoplay), a następnie kliknij przycisk OK.
 4) Kliknij dwukrotnie "PotPlayerMini[64].exe — skrót", program wykona żądane działanie po uruchomieniu.
 
 Przykłady:
@@ -293,7 +311,7 @@ Uso : PotPlayerMini.exe ["contenido"] [/switch]
             	-Comodines (*,?) permitidos.
               	-La configuración "Varios > Al abrir archivos" afecta cuando se especifica un archivo.
 
-- 		:Reproduce medios de stream desde stdin
+- 		:Reproduce stream desde stdin
                 -Ejemplo de uso: youtube-dl.exe -o - -f best[ext=webm] https://www.youtube.com/watch?v=l22sS8DEiVU | PotPlayerMini.exe -
 
 /filedlg        :Diálogo abrir archivo
@@ -317,13 +335,31 @@ Uso : PotPlayerMini.exe ["contenido"] [/switch]
                 -El ajuste "F5 > General > Múltiples instancias" no afecta esto.
 /current 	:Reproduce los contenidos especificados dentro de una instancia existente del programa
                 -El ajuste "F5 > General > Múltiples instancias" no afecta esto.
-/clipboard      :Agrega contenido(s) del portapapeles a la lista de reproducción e inicia la reproducción inmediatamente.
+/clipboard      :Añadir contenido(s) del portapapeles a la lista de reproducción e inicia la reproducción inmediatamente.
 /seek=time      :Inicia la reproducción del contenido especificado/último reproducido desde el punto de tiempo especificado.
                 -El formato de tiempo es: hh:mm:ss.ms (O especifique solo segundos, ejem. /seek=1800 para comenzar en el minuto 30)
-/user_agent=["]string["] : set user agent string for http(s)
-/referer=["]string["] : set referer string for http(s)
-/headers=["]string["] : set headers string for http(s)
+
+/user_agent=["]string["] : La cadena del agente de usuario para http(s)
+/referer=["]string["] : La cadena de referencia para http(s)
+/headers=["]string["] : La cadena de cabecera para http(s)
 config="preset name" -- Usar los ajustes predefinidos
+
+¿Cómo ejecutar PotPlayer desde la línea de comandos?
+
+1) Clic derecho en PotPlayerMini.exe en el directorio de instalación y seleccionar "Crear acceso directo" del menú
+2) Clic derecho en el archivo "PotPlayerMini.exe - Acceso directo" recién creado y seleccionr "Propiedades" del menú
+3) Seleccionar la pestaña "Acceso directo"
+4) Añadir un comando al final de la línea de comandos (por ejemplo "C:\Program Files (x86)\Daum\PotPlayer\PotPlayerMini.exe" /autoplay), y luego clic en Aceptar.
+5) Doble clic "PotPlayerMini.exe — Acceso directo", el programa realizará la acción solicitada cuando se inicie.
+
+Ejemplos:
+PotPlayerMini.exe "C:\Video\prueba.mp4" - reproduce el archivo especificado
+PotPlayerMini.exe "C:\Video\prueba.mp4" /add - añade el archivo  a la lista de reproducción
+PotPlayerMini.exe /autoplay - reproduce el último archivo abierto
+PotPlayerMini.exe /filedlg - abre un diálogo y añade los archivos a la lista de reproducción
+PotPlayerMini.exe /dvd - abre una unidad de DVD estándar
+PotPlayerMini.exe config="HD Pack" - activa los ajustes indicados (perfil)
+PotPlayerMini.exe /cd:e - abre la unidad especificada	
 $}
 {$UKRAINIAN=
 
@@ -564,7 +600,7 @@ config="preset name"	:Користи наведену поставку
 Како да пустим PotPlayer из командне линије?
 1-)Десни клик на PotPlayerMini[.exe] у инсталационом директоријуму и кликнути на  направи пречицу
 2-)Сада десни клик на ново направљени фајл "PotPlayerMini[.exe] - Shortcut" и кликнути на својства
-3-)Додај одређену команду на крају командне линије (за пример, "C:\Program Files\Daum\PotPlayer\PotPlayerMini.exe" /autoplay ) затим притисни OK.
+3-)Додај одређену команду на крају командне линије (за пример, "C:\Program Files (x86)\Daum\PotPlayer\PotPlayerMini.exe" /autoplay ) затим притисни OK.
 4-)Дупли клик на "PotPlayerMini[.exe] - Shortcut", програм ће извести жељену акцију на старту.
 
 
@@ -626,20 +662,20 @@ config="Име на шаблона"	: Избор на шаблон (Предва
 2) Кликнете с десния бутон върху новосъздадения файл "PotPlayerMini.exe - Пряк път"
    и изберете "Свойства"
 
-3) Добавете конкретна команда в края на командния ред (например "C:\Program Files\DAUM\PotPlayer\PotPlayerMini.exe" /autoplay
+3) Добавете конкретна команда в края на командния ред (например "C:\Program Files (x86)\DAUM\PotPlayer\PotPlayerMini.exe" /autoplay
    и след това изберете "OK".
 
 4) Кликнете два пъти върху "PotPlayerMini.exe - Пряк път" и програмата ще извърши желаното действие при стартиране.
   (в случая с примера Автоматично възпроизвеждане).
 
 Примери:
-PotPlayer[Mini].exe "D:\Data\Video\SD Film\no retreat no surrender.avi" - възпроизвежда директно посочения файл
-PotPlayer[Mini].exe "D:\Data\Video\SD Film\no retreat no surrender.avi" /add - добавя определен файл към списък за възпроизвеждане
-PotPlayer[Mini].exe /autoplay - възпроизвежда последния отворен файл
-PotPlayer[Mini].exe /filedlg - отваря диалогов прозорец и добавя файла(-те) към списъка за възпроизвеждане.
-PotPlayer[Mini].exe /dvd - отваря стандартно DVD устройство
-PotPlayer[Mini].exe config="HD Pack" - активира посочените настройки (профил)
-PotPlayer[Mini].exe /cd:e - отваря посоченото устройство(диск)
+PotPlayer[Mini]64.exe "D:\Data\Video\SD Film\no retreat no surrender.avi" - възпроизвежда директно посочения файл
+PotPlayer[Mini]64.exe "D:\Data\Video\SD Film\no retreat no surrender.avi" /add - добавя определен файл към списък за възпроизвеждане
+PotPlayer[Mini]64.exe /autoplay - възпроизвежда последния отворен файл
+PotPlayer[Mini]64.exe /filedlg - отваря диалогов прозорец и добавя файла(-те) към списъка за възпроизвеждане.
+PotPlayer[Mini]64.exe /dvd - отваря стандартно DVD устройство
+PotPlayer[Mini]64.exe config="HD Pack" - активира посочените настройки (профил)
+PotPlayer[Mini]64.exe /cd:e - отваря посоченото устройство(диск)
 $}
 {$INDONESIAN=
 Pemakaian: PotPlayerMini.exe ["nama file"] [/perintah]
@@ -797,6 +833,7 @@ Usage: PotPlayerMini.exe ["content"] [/switch]
 /seek=time      :Starts playback of the specified/last played content from the specified time point.
                 -time format is: hh:mm:ss.ms (OR specify seconds only e.g. /seek=1800 to start at 30th min)
 /sub="subfile"  :Loads the specified subtitle(s) from the specified paths or URLs.
+/aud="audiofile":Loads the specified audio(s) from the specified paths or URLs.
 /user_agent="ua":Sets user agent header for HTTP(S) requests.
 /referer="ref"  :Sets referer header for HTTP(S) requests.
 /headers="hdrs" :Appends the specified header(s) to HTTP(S) requests.
