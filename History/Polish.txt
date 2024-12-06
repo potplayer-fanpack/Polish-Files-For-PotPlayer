@@ -3,7 +3,7 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[241204]
+[241206]
 ----------------------------------------------------------
 + Dodano możliwość generowania napisów z głosu przy użyciu funkcji Whisper
 + Dodano możliwość otwierania audio z wykorzystaniem opcji wiersza polecenia
