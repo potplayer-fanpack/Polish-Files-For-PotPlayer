@@ -3,7 +3,7 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[250108]
+[250117]
 ----------------------------------------------------------
 + Dodano możliwość generowania napisów ASS/SSA przy użyciu libass
 + Dodano Faster-Whisper-XXL do silnika Whisper
