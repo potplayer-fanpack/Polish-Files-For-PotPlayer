@@ -3,7 +3,7 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[250204]
+[250206]
 ----------------------------------------------------------
 + Dodano możliwość generowania napisów ASS/SSA przy użyciu libass
 + Dodano Faster-Whisper-XXL do silnika Whisper
@@ -12,6 +12,8 @@ Historia wersji PotPlayer
 
 - Naprawiono błąd powodujący, że kolor ekranu był nieprawidłowy w niektórych sytuacjach podczas przechwytywania wideo
 - Naprawiono problem powodujący wycieki pamięci w niektórych sytuacjach
+- Naprawiono problem powodujący, że niektóre napisy ASS/SSA miały dziwne kolory
+- Poprawiono prędkość renderowania napisów ASS/SSA
 
 ----------------------------------------------------------
 [241211]
