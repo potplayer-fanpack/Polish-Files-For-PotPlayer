@@ -3,6 +3,13 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
+[250313]
+----------------------------------------------------------
+- Naprawiono problem, w wyniku którego niektóre komputery przestawały odtwarzać wideo HEVC 10-bit
+- Naprawiono problem, w wyniku którego Whisper Faster nie działał na procesorach graficznych NVIDIA serii 5000
+- Naprawiono problem, w wyniku którego niektóre napisy ASS/SSA nie działały prawidłowo
+
+----------------------------------------------------------
 [250226]
 ----------------------------------------------------------
 + Dodano możliwość generowania napisów ASS/SSA przy użyciu libass
