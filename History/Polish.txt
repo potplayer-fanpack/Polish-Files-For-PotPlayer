@@ -3,6 +3,14 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
+[250319]
+----------------------------------------------------------
++ Dodano możliwość zmiany obsługi czcionki napisów
+
+- Ulepszono obsługę opcji dodatkowych Whisper
+- Ulepszono przetwarzanie HDR D3D11 H/W
+
+----------------------------------------------------------
 [250313]
 ----------------------------------------------------------
 - Naprawiono problem, w wyniku którego niektóre komputery przestawały odtwarzać wideo HEVC 10-bit
