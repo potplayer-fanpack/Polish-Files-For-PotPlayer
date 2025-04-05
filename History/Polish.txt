@@ -3,12 +3,13 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[250319]
+[250402]
 ----------------------------------------------------------
 + Dodano możliwość zmiany obsługi czcionki napisów
 
 - Ulepszono obsługę opcji dodatkowych Whisper
 - Ulepszono przetwarzanie HDR D3D11 H/W
+- Naprawiono problem powodujący w pewnych warunkach pojawianie się czarnego ekranu
 
 ----------------------------------------------------------
 [250313]
