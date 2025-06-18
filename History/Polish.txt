@@ -3,9 +3,15 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[250529]
+[250618]
 ----------------------------------------------------------
-+ Dodano możliwość wyboru metody mapowania tonów HDR
++ Dodano funkcję umożliwiającą wybór metody mapowania tonów HDR
++ Dodano funkcję VAD do Whisper
+
+- Naprawiono błąd, który występował w niektórych sytuacjach
+- Naprawiono problem, w wyniku którego nie można było wyświetlić niektórych tekstów MP3
+- Naprawiono problem, w wyniku którego niektóre tła napisów były ucinane
+- Naprawiono problem, w wyniku którego obracanie niektórych obrazów nie było obsługiwane
 
 ----------------------------------------------------------
 [250512]
