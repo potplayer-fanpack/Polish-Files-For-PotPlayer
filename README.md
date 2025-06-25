@@ -12,6 +12,5 @@ StringTable.txt - skins, as well as translation of the website and installer.
 Polski
 =======
 
-Pliki tłumaczeń na język polski
-Wykorzystywane w odtwarzaczu PotPlayer: History.txt, Polish.ini, CmdLine.txt, 
-License.txt, StringTable.txt - skórki, , a także tłumaczenie strony WWW i instalatora.
+Pliki tłumaczeń na język polski wykorzystywane w odtwarzaczu PotPlayer: History.txt, Polish.ini, CmdLine.txt, 
+License.txt, StringTable.txt - skórki, a także tłumaczenie strony WWW i instalatora.
