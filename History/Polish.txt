@@ -3,6 +3,13 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
+[250704]
+----------------------------------------------------------
++ Dodano funkcję generowania napisów z audio w czasie rzeczywistym
+
+- Naprawiono problem z zawieszaniem się ekranu podczas korzystania z WMV3/VC1 IDCT DXVA
+
+----------------------------------------------------------
 [250625]
 ----------------------------------------------------------
 + Dodano funkcję umożliwiającą wybór metody mapowania tonów HDR
