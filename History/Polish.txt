@@ -3,11 +3,13 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[250717]
+[250822]
 ----------------------------------------------------------
 + Dodano funkcję generowania napisów z audio w czasie rzeczywistym
 
 - Naprawiono problem z zawieszaniem się ekranu podczas korzystania z WMV3/VC1 IDCT DXVA
+- Naprawiono problem z pojawianiem się czarnego ekranu podczas korzystania z DXVA w określonych warunkach
+- Naprawiono problem z powolnym otwieraniem niektórych plików MKV
 
 ----------------------------------------------------------
 [250625]
