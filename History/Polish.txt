@@ -3,7 +3,7 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[250828]
+[250902]
 ----------------------------------------------------------
 + Dodano funkcję generowania napisów z audio w czasie rzeczywistym
 
@@ -12,6 +12,7 @@ Historia wersji PotPlayer
 - Naprawiono błąd powodujący powolne otwieranie niektórych plików MKV
 - Naprawiono błąd powodujący nie wyświetlanie osadzonych napisów w niektórych plikach MKV
 - Naprawiono błąd powodujący pojawianie się czarnego ekranu podczas odtwarzania niektórych plików AV1
+- Naprawiono problem, który powodował, że niektóre napisy nie były wyświetlane
 
 ----------------------------------------------------------
 [250625]
