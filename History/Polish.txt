@@ -3,10 +3,11 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[251017]
+[251024]
 ----------------------------------------------------------
 - Ulepszono obsługę zestawów znaków w napisach
 - Naprawiono problem z brakiem synchronizacji funkcji generowania napisów w czasie rzeczywistym podczas odtwarzania strumieniowego na żywo
+- Naprawiono problem z niekończącym się odtwarzaniem niektórych plików MKV
 
 ----------------------------------------------------------
 [250909]
