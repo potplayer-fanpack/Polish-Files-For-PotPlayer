@@ -3,6 +3,15 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
+[260123]
+----------------------------------------------------------
++ Dodano funkcję wyświetlania napisów za pomocą libass
++ Dodano funkcję umożliwiającą przetwarzanie plików hls/dash za pomocą wbudowanego modułu
+
+- Poprawiono szybkość wyświetlania napisów
+- Poprawiono szybkość działania niektórych filtrów wideo
+
+----------------------------------------------------------
 [260114]
 ----------------------------------------------------------
 + Dodano funkcję dekodowania APV
