@@ -10,9 +10,9 @@ Historia wersji PotPlayer
 
 - Poprawiono szybkość wyświetlania napisów
 - Poprawiono szybkość działania niektórych filtrów wideo
-- Naprawiono błąd, który uniemożliwiał podłączenie zewnętrznego źródła audio w przypadku obecności wielu źródeł audio
-- Naprawiono błąd, który powodował nieprawidłowe wyświetlanie niektórych znaków Unicode
-- Naprawiono błąd, w wyniku którego odtwarzanie w kolejce odtwarzania tymczasowego zawsze rozpoczynało się od początku po zakończeniu
+- Naprawiono problem uniemożliwiający podłączenie zewnętrznego źródła dźwięku w przypadku obecności wielu plików audio
+- Naprawiono problem z nieprawidłowym wyświetlaniem niektórych znaków Unicode
+- Naprawiono problem z ciągłym rozpoczynaniem odtwarzania od początku po zakończeniu odtwarzania w tymczasowej kolejce odtwarzania
 
 ----------------------------------------------------------
 [260114]
