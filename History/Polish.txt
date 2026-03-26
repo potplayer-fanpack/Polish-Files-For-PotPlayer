@@ -3,7 +3,7 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[260320]
+[260326]
 ----------------------------------------------------------
 + Dodano możliwość wyświetlania napisów przy użyciu biblioteki libass
 + Dodano możliwość obsługi odtwarzania HLS/Dash za pomocą wbudowanych modułów
