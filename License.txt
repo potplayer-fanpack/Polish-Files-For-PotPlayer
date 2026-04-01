@@ -21,6 +21,6 @@
  - Program wykorzystuje bibliotekę whisper/llama licencjonowaną na podstawie licencji MIT. (https://github.com/ggml-org)
  - Program wykorzystuje bibliotekę renderowania czcionek FreeType z (http://www.freetype.org)
  - Pliki instalacyjne tego programu zostały wykonane przy pomocy NSIS (http://nsis.sourceforge.net) zgodnie z licencją NSIS 'zlib / libpng License'.
- - Autorem tłumaczenia na język polski jest Adam Malich (http://potplayerclub.pl)
+ - Autorem tłumaczenia na język polski jest Adam Malich (https://github.com/potplayer-fanpack)
  - Prawa autorskie (C) do tego oprogramowania należą do Kakao Co., Ltd. (http://www.kakao.com)
 $}
