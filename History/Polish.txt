@@ -3,6 +3,12 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
+[260428]
+----------------------------------------------------------
+- Znacznie poprawiono stabilność wewnętrzną
+- Naprawiono błąd powodujący nieprawidłowe wyświetlanie kolorów podczas przetwarzania RGB24
+
+----------------------------------------------------------
 [260331]
 ----------------------------------------------------------
 + Dodano możliwość wyświetlania napisów przy użyciu biblioteki libass
