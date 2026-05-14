@@ -3,11 +3,12 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[260511]
+[260514]
 ----------------------------------------------------------
 - Znacznie zwiększono stabilność wewnętrzną
 - Naprawiono błąd powodujący nieprawidłowe wyświetlanie kolorów podczas przetwarzania RGB24
 - Ulepszono odtwarzanie niektórych strumieni HTTP
+- Ulepszono obsługę synchronizacji we wbudowanym rendererze audio
 
 ----------------------------------------------------------
 [260331]
