@@ -3,8 +3,10 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[260521]
+[260526]
 ----------------------------------------------------------
++ Dodano funkcję wstrzymywania nawigacji podczas poruszania się po pasku nawigacyjnym
+
 - Znacznie poprawiono stabilność wewnętrzną
 - Naprawiono problem z dziwnym wyświetlaniem kolorów podczas przetwarzania RGB24
 - Ulepszono odtwarzanie niektórych strumieni HTTP
