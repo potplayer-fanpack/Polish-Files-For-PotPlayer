@@ -3,8 +3,10 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[260526]
+[260601]
 ----------------------------------------------------------
+* Usunięto Kakao TV
+
 + Dodano funkcję wstrzymywania nawigacji podczas poruszania się po pasku nawigacyjnym
 
 - Znacznie poprawiono stabilność wewnętrzną
