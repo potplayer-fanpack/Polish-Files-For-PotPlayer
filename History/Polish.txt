@@ -3,6 +3,15 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
+[260709]
+----------------------------------------------------------
++ Dodano funkcję umożliwiającą indywidualne ustawienie działań dla lewego/prawego obszaru po dwukrotnym kliknięciu myszką
++ Dodano funkcję umożliwiającą użytkownikom ustawienie adresu listy broadcast
+
+- Naprawiono problem uniemożliwiający odtwarzanie wideo o bardzo wysokiej rozdzielczości
+- Naprawiono problem z brakiem synchronizacji wbudowanego renderera dźwięku w określonych sytuacjach
+
+----------------------------------------------------------
 [260618]
 ----------------------------------------------------------
 * Usunięto Kakao TV
