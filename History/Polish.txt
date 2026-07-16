@@ -3,8 +3,11 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[260709]
+[260716]
 ----------------------------------------------------------
+* Wdrożenie kompilacji ARM64
+  https://t1.daumcdn.net/potplayer/beta/PotPlayerSetupARM64.exe
+
 + Dodano funkcję umożliwiającą indywidualne ustawienie działań dla lewego/prawego obszaru po dwukrotnym kliknięciu myszką
 + Dodano funkcję umożliwiającą użytkownikom ustawienie adresu listy broadcast
 
