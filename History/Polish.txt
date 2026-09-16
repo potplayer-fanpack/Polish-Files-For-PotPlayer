@@ -3,6 +3,15 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
+[260911]
+----------------------------------------------------------
+* Zmieniono domyślne moduły renderujące (D3D11 dla wideo, WASAPI dla audio)
+
++ Dodano obsługę MPEG4 DXVA
+
+- Naprawiono problem z niską prędkością kodowania plików WebP
+
+----------------------------------------------------------
 [260814]
 ----------------------------------------------------------
 * Wydano kompilację ARM64
