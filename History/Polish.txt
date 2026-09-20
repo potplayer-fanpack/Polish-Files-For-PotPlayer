@@ -3,13 +3,15 @@ Historia wersji PotPlayer
 
 
 ----------------------------------------------------------
-[260911]
+[260918]
 ----------------------------------------------------------
 * Zmieniono domyślne moduły renderujące (D3D11 dla wideo, WASAPI dla audio)
 
 + Dodano obsługę MPEG4 DXVA
++ Dodano obsługę odtwarzania strumieni HLS/DASH z plików lokalnych
 
 - Naprawiono problem z niską prędkością kodowania plików WebP
+- Naprawiono błąd, przez który niektóre pliki MPEG TS nie mogły być odtwarzane
 
 ----------------------------------------------------------
 [260814]
